@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+	<div class="word">
+    <div>E</div>
+    <div>X</div>
+    <div>A</div>
+    <div>M</div>
+    <div>P</div>
+    <div>L</div>
+    <div>E</div>
+	</div>
+			<style type="text/css">
+				.word > div {
+					float: left;
+					margin: 5px;
+					text-align: center;
+					cursor: pointer;
+				}
+			</style>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+			<script type="text/javascript">
+				$(function () {
+					$(".word").sortable();
+				});
+			</script>
+	</body>
+</html>
